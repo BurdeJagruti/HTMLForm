@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up Form</title>
+    <link rel="icon"  type="image/x-icon" href="https://img.icons8.com/fluency/256/email-open.png">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@200&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <form>
+        <header>
+            <span class="one"><b>Signup</b></span>
+        </header>
+        <main>
+            <div>
+                <lable for="name">Full Name</lable>
+                <input type="text" id="name" class="main" required>
+            </div>
+           
+            <hr>
+            <div>
+                <lable for="email">Email</lable>
+                <input type="email" id="email" class="main" required>
+            </div>
+           
+            <hr>
+            <div>
+                <lable for="password">Password</lable>
+                <input type="password" id="password" class="main" required>
+            </div>
+           
+            <hr>
+            <div>
+                <lable for="Cpassword">Confirm Password</lable>
+                <input type="password" id="Cpassword" class="main" required>
+            </div>
+           
+            <hr>
+            <div>
+                <lable for="DOB">MM/DD/YYYY</lable>
+                <input type="text" id="DOB" class="main" required>
+            </div>
+           
+            <hr>
+            <div>
+                <input type="radio" id="student" name="profession" required>
+                <label for="student">Student</label>
+                <input type="radio" id="employee" name="profession"  required>
+            <label for="employee">Employee</label>
+
+              
+            </div>
+          
+       <footer>
+        <div class="footer">
+           
+            <label class="container">I agree to all the Terms and Conditions
+                <input type="checkbox">
+                <span class="checkmark"></span>
+              </label>
+        </div>
+         <button type="submit">Signup</button>
+       </footer>
+
+       
+        </main>
+    </form>
+</body>
+</html>
